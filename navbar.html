@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style media="screen">
+    .verde{
+     background:#047737;
+    }
+    .active{
+      background:#074417;
+    }
+
+    a:link{
+text-decoration:none;
+color:#fff;
+}
+
+  a:hover{
+    text-decoration:none;
+    color:red;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+nav{
+  box-shadow:1px 5px 10px #000;
+}
+ li{
+   margin-left:10px;
+ }
+
+
+  </style>
+ </head>
+ <body>
+   <nav class="navbar navbar-expand-lg verde">
+    <a class="navbar-brand" href="#">Logo</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" >
+      <span class="navbar-toggler-icon"></span>
+     </button>
+    <div class="collapse navbar-collapse" >
+     <ul class="navbar-nav">
+       <li class="nav-item active">
+         <a class="nav-link" href="inicio.php">Inicio</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="alunos.php">Alunos</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="livros.php">Livros</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="pedidos.php">Pedidos</a>
+       </li>
+    </div>
+   </nav>
+
+ </body>
+</html>
